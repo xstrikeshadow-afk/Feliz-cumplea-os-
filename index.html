@@ -4,87 +4,102 @@
   <meta charset="UTF-8">
   <title>Feliz Cumple, Valerie 🎉</title>
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: system-ui, Arial, sans-serif;
-      background: linear-gradient(135deg, #141e30, #243b55);
-      color: #fff;
-      text-align: center;
+      background: #ffffff;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
       padding: 40px;
     }
 
-    .card {
-      background: #ffffff;
-      color: #333;
-      max-width: 650px;
-      margin: auto;
-      padding: 30px;
-      border-radius: 18px;
-      box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+    h1 {
+      color: #ff5c8a;
+      text-align: center;
+      margin-bottom: 20px;
     }
 
-    h1 { color: #ff5c8a; }
+    p {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 1.05em;
+    }
 
     ul {
-      text-align: left;
-      display: inline-block;
-      margin-top: 10px;
+      margin: 20px auto;
+      max-width: 500px;
+    }
+
+    li {
+      margin-bottom: 8px;
     }
 
     .code {
       background: #f4f4f4;
-      padding: 15px;
+      padding: 16px;
       border-radius: 10px;
       font-family: monospace;
-      margin-top: 20px;
-      text-align: left;
-      font-size: 0.9em;
+      margin: 25px auto;
+      max-width: 600px;
+      font-size: 0.95em;
     }
 
     .footer {
-      margin-top: 25px;
+      margin-top: 30px;
+      text-align: center;
       font-size: 0.9em;
-      color: #555;
+      color: #666;
     }
   </style>
 </head>
 <body>
 
-  <div class="card">
+  <div class="container">
     <h1>🎂 Feliz Cumpleaños, Valerie 🎉</h1>
 
-    <p><strong>🚨 Aviso del sistema:</strong></p>
-    <p>Cumpleaños detectado → modo celebración activado</p>
+    <p><strong>🚨 Aviso del sistema:</strong> cumpleaños detectado</p>
+    <p>Modo celebración activado ✅</p>
 
     <div class="code">
       EVENTO = "Cumpleaños de Valerie"<br>
       ESTADO = "ON"<br>
-      CHISME = "pendiente de actualización" 👀<br>
+      CHISME = "en espera..." 👀<br>
       RISAS = true 😄
     </div>
-
-    <h3>💻 Mensaje del desarrollador</h3>
 
     <p>
       Feliz cumple, Valerie 🥳<br>
       Un año más acumulando historias,<br>
-      comentarios y uno que otro chisme 👂😅
+      comentarios y chisme del bueno 😅
     </p>
 
     <ul>
       <li>+1 año de experiencia escuchando TODO</li>
-      <li>Chisme detectado → se procesa en tiempo real</li>
-      <li>Bug conocido: se burla de todo (feature, no error)</li>
-      <li>Funciona mejor con pastel 🎂</li>
+      <li>Procesador de chisme: alta eficiencia</li>
+      <li>Bug conocido: se burla de todo (feature)</li>
+      <li>Requiere pastel para funcionar 🍰</li>
     </ul>
 
     <p>
       Que este nuevo año venga con risas,<br>
-      buenos momentos y chisme del bueno (del divertido).
+      buenos momentos y actualizaciones interesantes.
     </p>
 
     <div class="footer">
-      🎈 Version: Valerie v.Next<br>
-      🔧 Build: estable, con rumores en beta
+      🎈 Version: Valerie v.Next · 🔧 Build: estable (rumores en beta)
     </div>
   </div>
 
